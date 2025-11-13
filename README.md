@@ -41,43 +41,43 @@ A user can specify their “happiness type” — e.g., Safe, Scenic, Social, or
 
 1. Data Collection
 
-  Pull geospatial data from OpenStreetMap.
+  - Pull geospatial data from OpenStreetMap.
 
-  Overlay Berkeley’s open crime data and other context sources.
+  - Overlay Berkeley’s open crime data and other context sources.
 
-  Use OSM tags (e.g., “park”, “café”, “bench”) for attractiveness scoring.
+  - Use OSM tags (e.g., “park”, “café”, “bench”) for attractiveness scoring.
 
 2. Feature Engineering
 
-  Normalize continuous features (e.g., crime density).
+  - Normalize continuous features (e.g., crime density).
 
-  Encode categorical attributes (e.g., street type, amenity).
+  - Encode categorical attributes (e.g., street type, amenity).
 
-  Combine them into a feature vector per route segment.
+  - Combine them into a feature vector per route segment.
 
 3. ML Modeling
 
-  Option 1: Weighted Scoring Model
+  - Option 1: Weighted Scoring Model
 
-  Compute happiness score = Σ (feature × user-defined weight).
+  - Compute happiness score = Σ (feature × user-defined weight).
 
-  Option 2: Learned Model (if time permits)
+  - Option 2: Learned Model (if time permits)
 
-  Train a regression/classifier model to predict happiness ratings using user feedback or proxy labels (e.g., Yelp popularity).
+  - Train a regression/classifier model to predict happiness ratings using user feedback or proxy labels (e.g., Yelp popularity).
 
 4. Route Optimization
 
-  Use networkx or osmnx shortest-path algorithms.
+  - Use networkx or osmnx shortest-path algorithms.
 
-  Replace distance weights with 1 − happiness score to find the happiest route.
+  - Replace distance weights with 1 − happiness score to find the happiest route.
 
 5. Visualization
 
-  Display the routes (safest, scenic, fastest) using Folium or Kepler.gl.
+  - Display the routes (safest, scenic, fastest) using Folium or Kepler.gl.
 
-  Color-code paths (green → happiest, red → least happy).
+  - Color-code paths (green → happiest, red → least happy).
 
-  Add hoverable explanations: “Low crime, lots of cafés nearby.”
+  - Add hoverable explanations: “Low crime, lots of cafés nearby.”
 
 🗺️ ## Tech Stack
 | Category          | Tools / Libraries                |
