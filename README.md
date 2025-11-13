@@ -1,5 +1,7 @@
 🌈 # Road to Happiness
+
 Find your own happiest route — safely, beautifully, meaningfully.
+
 🧭 ## Overview
 
 Road to Happiness is an intelligent route recommender that personalizes navigation based on what happiness means to you.
@@ -7,6 +9,7 @@ Road to Happiness is an intelligent route recommender that personalizes navigati
 Whether your priority is safety, scenery, vibrancy, or serenity, our system uses machine learning and open geospatial data to create routes that align with your emotional preferences — not just your destination.
 
 Traditional maps find the shortest route.
+
 We find the route that makes you feel happiest.
 
 💡 ## Motivation
@@ -118,6 +121,7 @@ Expand to multiple cities using open data portals.
 ❤️ ## Team Vision
 
 We believe that technology should make people feel better, not just move faster.
+
 By rethinking navigation through the lens of emotion and safety, Road to Happiness shows how machine learning can make the world — and each journey — a little more joyful.
 
 📎 ## Example Output
