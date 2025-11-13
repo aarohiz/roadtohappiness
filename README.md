@@ -1,8 +1,8 @@
-🌈 # Road to Happiness
+# 🌈 Road to Happiness
 
 Find your own happiest route — safely, beautifully, meaningfully.
 
-🧭 ## Overview
+## 🧭 Overview
 
 Road to Happiness is an intelligent route recommender that personalizes navigation based on what happiness means to you.
 
@@ -12,7 +12,7 @@ Traditional maps find the shortest route.
 
 We find the route that makes you feel happiest.
 
-💡 ## Motivation
+## 💡 Motivation
 
 Walking or commuting through a city isn’t only about speed — it’s about how the journey feels.
 
@@ -24,7 +24,7 @@ A nature lover might want quiet roads with more trees or parks nearby.
 
 Road to Happiness blends data science and human preference modeling to map happiness in motion.
 
-🧠 ## Core Idea
+## 🧠 Core Idea
 
 We model each route segment as a vector of features that influence a person’s happiness, including:
 
@@ -37,7 +37,7 @@ We model each route segment as a vector of features that influence a person’s 
 
 A user can specify their “happiness type” — e.g., Safe, Scenic, Social, or Peaceful — and the system uses a weighted ML model to score and rank possible routes.
 
-⚙️ ## Methodology
+## ⚙️ Methodology
 
 1. Data Collection
 
@@ -79,7 +79,7 @@ A user can specify their “happiness type” — e.g., Safe, Scenic, Social, or
 
   - Add hoverable explanations: “Low crime, lots of cafés nearby.”
 
-🗺️ ## Tech Stack
+## 🗺️ Tech Stack
 | Category          | Tools / Libraries                |
 | :---------------- | -------------------------------: |
 | Data Handling     | pandas, geopandas, numpy         |
@@ -88,7 +88,7 @@ A user can specify their “happiness type” — e.g., Safe, Scenic, Social, or
 | Visualization     | folium, kepler.gl, matplotlib    |
 | (Optional UI)     | streamlit or notebook interface  |
 
-🧩 ## Example Use Cases
+## 🧩 Example Use Cases
 
 Safe Path for Women: Recommend the lowest-crime and best-lit walking route home.
 
@@ -98,7 +98,7 @@ Peaceful Path: Prioritize quiet residential streets and greenery.
 
 Happiness Feedback: Let users rate how happy they felt on their route to improve model learning.
 
-🧪 ## Expected Outputs
+## 🧪 Expected Outputs
 
 Interactive map comparing multiple routes.
 
@@ -108,7 +108,7 @@ Quantitative metrics: “Happiness score: 0.83 | Distance: 1.2 mi | ETA: 14 min.
 
 Visualizations and model explainability plots.
 
-🚀 ## Future Extensions
+## 🚀 Future Extensions
 
 Integrate real-time data (weather, crowd levels).
 
@@ -118,13 +118,13 @@ Deploy as a mobile web app with Streamlit or Mapbox.
 
 Expand to multiple cities using open data portals.
 
-❤️ ## Team Vision
+## ❤️ Team Vision
 
 We believe that technology should make people feel better, not just move faster.
 
 By rethinking navigation through the lens of emotion and safety, Road to Happiness shows how machine learning can make the world — and each journey — a little more joyful.
 
-📎 ## Example Output
+## 📎 Example Output
 | Route   | Distance | Happiness Score | Notes                              |
 | :------ | :------: |  :------------: | ---------------------------------: |
 | Route A | 1.2 mi   | 0.87            | Passes cafés and murals, low crime |
